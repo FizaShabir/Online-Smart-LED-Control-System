@@ -1,0 +1,28 @@
+#define BLYNK_TEMPLATE_ID "TMPL6yXY78ybG"
+#define BLYNK_TEMPLATE_NAME "wokwi LED 2"
+#define BLYNK_AUTH_TOKEN "Frnz6g3O5B0bZUsRs5AoYec6pcv7k7c9"
+
+/* Comment this out to disable prints and save space */
+#define BLYNK_PRINT Serial
+
+#include <WiFi.h>
+#include <WiFiClient.h>
+#include <BlynkSimpleEsp32.h>
+
+// Your WiFi credentials.
+// Set password to "" for open networks.
+char ssid[] = "Wokwi-GUEST";
+char pass[] = "";
+
+void setup()
+{
+  // Debug console
+  Serial.begin(115200);
+  Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
+}
+
+void loop()
+{
+  Blynk.run();
+  delay(100); //delay for simulation
+}
