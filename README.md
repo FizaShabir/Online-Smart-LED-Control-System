@@ -1,4 +1,6 @@
 # Online Smart LED Control System
+![2025-03-06 (1)](https://github.com/user-attachments/assets/2918d4de-480f-4f96-b614-c2f0f27e336c)
+
 
 ## Introduction
 The **Online Smart LED Control System** enables remote management of LED lights, allowing users to control brightness, color, and scheduling through a mobile app or web application. This project aims to enhance convenience, energy efficiency, and smart home automation.
